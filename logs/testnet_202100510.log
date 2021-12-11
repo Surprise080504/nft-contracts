@@ -1,0 +1,79 @@
+Starting migrations...
+======================
+> Network name:    'testnet'
+> Network id:      97
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+12_deploy_erc721Airdrop.js
+==========================
+
+   Deploying 'ERC721Airdrop'
+   -------------------------
+   > transaction hash:    0xc35c85a480660e9cad46ba92bd6e93aebd891af3c77e3fc4468fd124e60609a0
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xD6C5d2be1c0b6ED155F786dfbAf9ef0dFdd78Dd0
+   > block number:        8724013
+   > block timestamp:     1620662730
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             10.583173223886819664
+   > gas used:            816535 (0xc7597)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0163307 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8724014)
+   > confirmation number: 3 (block: 8724016)
+   > confirmation number: 4 (block: 8724017)
+   > confirmation number: 5 (block: 8724018)
+   > confirmation number: 7 (block: 8724020)
+   > confirmation number: 8 (block: 8724021)
+   > confirmation number: 9 (block: 8724022)
+   > confirmation number: 11 (block: 8724024)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0163307 ETH
+
+
+13_deploy_erc1155Airdrop.js
+===========================
+
+   Deploying 'ERC1155Airdrop'
+   --------------------------
+   > transaction hash:    0x0430368be127eeec703f726b34e77cf65a4739e7045f7b18449cf4ae94aed76b
+   > Blocks: 2            Seconds: 4
+   > contract address:    0xda6d4b28a0aAFd3298faa1278F92CFE6F66948E2
+   > block number:        8724029
+   > block timestamp:     1620662778
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             10.568921063886819664
+   > gas used:            685270 (0xa74d6)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0137054 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8724030)
+   > confirmation number: 3 (block: 8724032)
+   > confirmation number: 4 (block: 8724033)
+   > confirmation number: 5 (block: 8724034)
+   > confirmation number: 7 (block: 8724036)
+   > confirmation number: 8 (block: 8724037)
+   > confirmation number: 9 (block: 8724038)
+   > confirmation number: 11 (block: 8724040)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0137054 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.0300361 ETH

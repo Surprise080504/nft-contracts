@@ -1,0 +1,430 @@
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x12ad9b81563c2d0e38b59d5bda82362d16de519164ec96606102cfb8b487261c
+   > Blocks: 2            Seconds: 4
+   > contract address:    0x1af06bE91dCA9A46Eb73eDe5DAeBCb8950Fc4135
+   > block number:        8569900
+   > block timestamp:     1620200246
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             10.226551509512195129
+   > gas used:            159171 (0x26dc3)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00318342 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8569901)
+   > confirmation number: 3 (block: 8569903)
+   > confirmation number: 4 (block: 8569904)
+   > confirmation number: 5 (block: 8569905)
+   > confirmation number: 7 (block: 8569907)
+   > confirmation number: 8 (block: 8569908)
+   > confirmation number: 9 (block: 8569909)
+   > confirmation number: 11 (block: 8569911)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00318342 ETH
+
+
+2_deploy_refinable_erc721_token.js
+==================================
+
+   Deploying 'RefinableERC721Token'
+   --------------------------------
+   > transaction hash:    0x12bffc6a06f3af6dfe2f3cce82ba2af4c8606cf97d65594b00a932a65e7420be
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x5ad4b7a86C45CB2Be75D8A14F11F38d4AB4B6132
+   > block number:        8569915
+   > block timestamp:     1620200291
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             10.117880589512195129
+   > gas used:            5391208 (0x524368)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.10782416 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8569916)
+   > confirmation number: 3 (block: 8569918)
+   > confirmation number: 4 (block: 8569919)
+   > confirmation number: 5 (block: 8569920)
+   > confirmation number: 7 (block: 8569922)
+   > confirmation number: 8 (block: 8569923)
+   > confirmation number: 9 (block: 8569924)
+   > confirmation number: 11 (block: 8569926)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.10782416 ETH
+
+
+3_deploy_refinable_erc1155_token.js
+===================================
+
+   Deploying 'RefinableERC1155Token'
+   ---------------------------------
+   > transaction hash:    0xcf11e2ebf65c987f70654264e5e445aac98ef0fa7df996571eb67fb656d2b9d7
+   > Blocks: 2            Seconds: 4
+   > contract address:    0x1883C4f34670bD42aF5D67030Cd32DFbB3AF6ca2
+   > block number:        8569930
+   > block timestamp:     1620200336
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             10.006681269512195129
+   > gas used:            5532628 (0x546bd4)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.11065256 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 2 (block: 8569932)
+   > confirmation number: 3 (block: 8569933)
+   > confirmation number: 4 (block: 8569934)
+   > confirmation number: 6 (block: 8569936)
+   > confirmation number: 7 (block: 8569937)
+   > confirmation number: 8 (block: 8569938)
+   > confirmation number: 10 (block: 8569940)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.11065256 ETH
+
+
+4_deploy_refinable_token.js
+===========================
+
+   Deploying 'RefinableToken'
+   --------------------------
+   > transaction hash:    0x9d9fd7f33c0d6a3a476fecc159f32c505f85ddb2542fade124ad55ba62d1a622
+   > Blocks: 2            Seconds: 4
+   > contract address:    0xe4946b2277a5C83D5f5Ea7225313b27b610Bf834
+   > block number:        8569945
+   > block timestamp:     1620200381
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             9.971013269512195129
+   > gas used:            1756062 (0x1acb9e)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03512124 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8569946)
+   > confirmation number: 3 (block: 8569948)
+   > confirmation number: 4 (block: 8569949)
+   > confirmation number: 5 (block: 8569950)
+   > confirmation number: 7 (block: 8569952)
+   > confirmation number: 8 (block: 8569953)
+   > confirmation number: 9 (block: 8569954)
+   > confirmation number: 11 (block: 8569956)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.03512124 ETH
+
+
+5_deploy_transferProxy.js
+=========================
+
+   Deploying 'TransferProxy'
+   -------------------------
+   > transaction hash:    0x0bedfa3b0ff11d19a85408bb9d20e2d982b4587bd5e012168a40c85fbdf49a5b
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x73202f66fdB86c950ce454D7C7d8a5450036E76b
+   > block number:        8569960
+   > block timestamp:     1620200426
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             9.949364449512195129
+   > gas used:            1055103 (0x10197f)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02110206 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8569961)
+   > confirmation number: 2 (block: 8569962)
+   > confirmation number: 4 (block: 8569964)
+   > confirmation number: 5 (block: 8569965)
+   > confirmation number: 6 (block: 8569966)
+   > confirmation number: 8 (block: 8569968)
+   > confirmation number: 9 (block: 8569969)
+   > confirmation number: 10 (block: 8569970)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02110206 ETH
+
+
+6_deploy_servicefee.js
+======================
+
+   Deploying 'ServiceFee'
+   ----------------------
+   > transaction hash:    0x110ddc7fc81420e225def40dd1e84a8e9cf11869836c9947e9f0e258d5a0f7fb
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x02deC8274b6D3A0DaFb947C6Fab18a95Cc147964
+   > block number:        8569975
+   > block timestamp:     1620200471
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             9.914236909512195129
+   > gas used:            1729039 (0x1a620f)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03458078 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8569976)
+   > confirmation number: 3 (block: 8569978)
+   > confirmation number: 4 (block: 8569979)
+   > confirmation number: 5 (block: 8569980)
+   > confirmation number: 6 (block: 8569981)
+   > confirmation number: 8 (block: 8569983)
+   > confirmation number: 9 (block: 8569984)
+   > confirmation number: 10 (block: 8569985)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.03458078 ETH
+
+
+7_deploy_servicefeeProxy.js
+===========================
+
+   Deploying 'ServiceFeeProxy'
+   ---------------------------
+   > transaction hash:    0x72291a82aade302bac1d62af7c7a1f1b7e7df08affba8ea56d8c4e9366d8f225
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xca0638006063Ce0E44D9c9306228899476F68435
+   > block number:        8569990
+   > block timestamp:     1620200516
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             9.889364989512195129
+   > gas used:            1216258 (0x128f02)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02432516 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8569991)
+   > confirmation number: 2 (block: 8569992)
+   > confirmation number: 4 (block: 8569994)
+   > confirmation number: 5 (block: 8569995)
+   > confirmation number: 7 (block: 8569997)
+   > confirmation number: 8 (block: 8569998)
+   > confirmation number: 9 (block: 8569999)
+   > confirmation number: 11 (block: 8570001)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02432516 ETH
+
+
+8_deploy_erc721Sale.js
+======================
+
+   Deploying 'ERC721SaleNonceHolder'
+   ---------------------------------
+   > transaction hash:    0x9a4e56116d15ef025544a979bfce5feec30dd015a4e07398ca1c486bde870b2f
+   > Blocks: 2            Seconds: 4
+   > contract address:    0x109E2B56cD2665138f02c1734bE4e31B9D9dda27
+   > block number:        8570013
+   > block timestamp:     1620200585
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             9.860201189512195129
+   > gas used:            1200194 (0x125042)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02400388 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8570014)
+   > confirmation number: 3 (block: 8570016)
+   > confirmation number: 4 (block: 8570017)
+   > confirmation number: 5 (block: 8570018)
+   > confirmation number: 7 (block: 8570020)
+   > confirmation number: 8 (block: 8570021)
+   > confirmation number: 9 (block: 8570022)
+   > confirmation number: 11 (block: 8570024)
+
+   Deploying 'ERC721Sale'
+   ----------------------
+   > transaction hash:    0xf2784c3df53f435c5a49fae0ba311ac47610fd8577e93826dd7d82c6ca7a6821
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x6a2D1C2185a8c08D6BB5e4579b479D5FC58d668a
+   > block number:        8570026
+   > block timestamp:     1620200624
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             9.813331309512195129
+   > gas used:            2343494 (0x23c246)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04686988 ETH
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8570027)
+   > confirmation number: 3 (block: 8570029)
+   > confirmation number: 4 (block: 8570030)
+   > confirmation number: 5 (block: 8570031)
+   > confirmation number: 7 (block: 8570033)
+   > confirmation number: 8 (block: 8570034)
+   > confirmation number: 9 (block: 8570035)
+   > confirmation number: 11 (block: 8570037)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.07087376 ETH
+
+
+9_deploy_erc1155sale.js
+=======================
+
+   Deploying 'ERC1155SaleNonceHolder'
+   ----------------------------------
+   > transaction hash:    0xb96f5681fb17a2067039bbeab3b8524d927f92715ee4504876705d9f48724905
+   > Blocks: 2            Seconds: 4
+   > contract address:    0xFAcb0A30C309525ADAc64EAc5d073D0da1986B26
+   > block number:        8570046
+   > block timestamp:     1620200684
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             9.785258029512195129
+   > gas used:            1200194 (0x125042)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02400388 ETH   
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8570060)
+   > confirmation number: 3 (block: 8570062)
+   > confirmation number: 4 (block: 8570063)
+   > confirmation number: 6 (block: 8570065)
+   > confirmation number: 7 (block: 8570066)
+   > confirmation number: 8 (block: 8570067)
+   > confirmation number: 9 (block: 8570068)
+   > confirmation number: 11 (block: 8570070)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.07112974 ETH
+
+   Deploying 'ERC1155Sale'
+   ----------------------------------
+   > transaction hash:    0x84916551c3aeed78ff08872b744e905c115d7ae3838a754dda50d015ffa97d99
+   > Blocks: 2            Seconds: 4
+   > contract address:    0x2c37ac32b1fdf1e852cb74e4c23fef0c9fecfc01
+   > block number:        8570059
+   > block timestamp:     1620200684
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             9.785258029512195129
+   > gas used:            1200194 (0x125042)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02400388 ETH   
+   
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8570060)
+   > confirmation number: 3 (block: 8570062)
+   > confirmation number: 4 (block: 8570063)
+   > confirmation number: 6 (block: 8570065)
+   > confirmation number: 7 (block: 8570066)
+   > confirmation number: 8 (block: 8570067)
+   > confirmation number: 9 (block: 8570068)
+   > confirmation number: 11 (block: 8570070)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.07112974 ETH
+
+
+10_deploy_erc721Auction.js
+==========================
+
+   Deploying 'ERC721Auction'
+   -------------------------
+   > transaction hash:    0x9e565e1d0a7a1636f56c30598069ff8911412b5ea254d75921d5171511797ef9
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xddBA165cc57CDF0F1524ab38815B11f22fE0D475
+   > block number:        8570078
+   > block timestamp:     1620200780
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             9.630002609512195129
+   > gas used:            5218008 (0x4f9ed8)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.10436016 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8570079)
+   > confirmation number: 3 (block: 8570081)
+   > confirmation number: 4 (block: 8570082)
+   > confirmation number: 5 (block: 8570083)
+   > confirmation number: 7 (block: 8570085)
+   > confirmation number: 8 (block: 8570086)
+   > confirmation number: 9 (block: 8570087)
+   > confirmation number: 11 (block: 8570089)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.10436016 ETH
+
+
+11_deploy_erc1155Auction.js
+===========================
+
+   Deploying 'ERC1155Auction'
+   --------------------------
+   > transaction hash:    0x63185a83fe92f30839c514991a838ccfd5c67aa52c3a25c840edca1cc55b15f6
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x59f54A6f914D9b9C763F807f7d23151fc75E571E
+   > block number:        8570093
+   > block timestamp:     1620200825
+   > account:             0xa508dD875f10C33C52a8abb20E16fc68E981F186
+   > balance:             9.520867149512195129
+   > gas used:            5429435 (0x52d8bb)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.1085887 ETH
+
+   Pausing for 10 confirmations...
+   -------------------------------
+   > confirmation number: 1 (block: 8570094)
+   > confirmation number: 3 (block: 8570096)
+   > confirmation number: 4 (block: 8570097)
+   > confirmation number: 5 (block: 8570098)
+   > confirmation number: 7 (block: 8570100)
+   > confirmation number: 8 (block: 8570101)
+   > confirmation number: 9 (block: 8570102)
+   > confirmation number: 11 (block: 8570104)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.1085887 ETH
+
+
+Summary
+=======
+> Total deployments:   13
+> Final cost:          0.69174174 ETH

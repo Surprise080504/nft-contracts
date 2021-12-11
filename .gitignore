@@ -1,0 +1,11 @@
+node_modules
+.env
+wrangler.toml
+secret.json
+secret.*.json
+!secret.example.json
+build
+package-lock.json
+yarn.lock
+keys.json
+.idea

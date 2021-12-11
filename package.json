@@ -1,0 +1,22 @@
+{
+  "name": "BinanceProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "truffle compile",
+    "test": "truffle test",
+    "start": "truffle migrate",
+    "deploy:mainnet": "truffle migrate --network mainnet",
+    "deploy:testnet": "truffle migrate --network testnet",
+    "deploy:dev": "truffle migrate --network development",
+    "reset:testnet": "truffle migrate --network testnet --reset"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "@truffle/hdwallet-provider": "^1.0.43",
+    "truffle": "^5.1.42",
+    "truffle-flattener": "^1.4.4"
+  }
+}
